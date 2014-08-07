@@ -5,7 +5,7 @@
  */
 function starter_frontpage_install() {
   $callback = new stdClass();
-  $callback->path = '<front>';
+  $callback->path = 'frontpage';
   $callback->page_title = 'Welcome';
   empty_page_save_callback($callback);
 }

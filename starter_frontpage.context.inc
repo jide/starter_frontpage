@@ -24,7 +24,11 @@ function starter_frontpage_context_default_contexts() {
     ),
   );
   $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
 
+      ),
+    ),
   );
   $context->condition_mode = 0;
 

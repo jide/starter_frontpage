@@ -6,7 +6,6 @@ version = 7.x-1.0
 project = starter_frontpage
 dependencies[] = context
 dependencies[] = ctools
-dependencies[] = starter_site_building
 dependencies[] = strongarm
 dependencies[] = views
 features[context][] = frontpage
